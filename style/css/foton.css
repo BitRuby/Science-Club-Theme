@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/*!
+ * Koło naukowe - Foton Theme
+ * Copyright 2017 Michał Zwierzyński
+ * Licensed under MIT
+ */
+/*SASS Variables*/
+/*SASS Mixins*/
+/* Global Styles */
+/* line 31, ../sass/foton.scss */
+body {
+  background: #FFF;
+  font-family: "Arial Narrow", "Switzerland Condensed", sans-serif;
+}
+
+/*Navigation*/
+/* line 36, ../sass/foton.scss */
+.navbar {
+  margin-bottom: 30px;
+  background-color: #f39c12;
+  border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+}
+/* line 40, ../sass/foton.scss */
+.navbar a {
+  font-size: 20px;
+}
+/* line 43, ../sass/foton.scss */
+.navbar.navbar-default {
+  background-color: #f39c12;
+}
+/* line 47, ../sass/foton.scss */
+.navbar .navbar-header .navbar-brand {
+  text-indent: -9999px;
+  background: url("../../images/logo.png");
+  width: 164px;
+  height: 64px;
+}
+/* line 54, ../sass/foton.scss */
+.navbar .navbar-nav {
+  padding: 10px 0;
+}
+/* line 57, ../sass/foton.scss */
+.navbar .navbar-nav li a {
+  font-size: 16px;
+}
+/* line 64, ../sass/foton.scss */
+.navbar .navbar-nav .dropdown ul li a:hover {
+  background-color: #f39c12;
+}
+
+/* line 72, ../sass/foton.scss */
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  margin-left: 0;
+}
+
+/*Header carousel*/
+/* line 76, ../sass/foton.scss */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  margin: auto;
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+  object-fit: cover;
+  height: 480px;
+}
+
+/*Content*/
+/*Cart icons*/
+/* line 88, ../sass/foton.scss */
+#content-1 .row h1 {
+  margin: 40px 0 30px;
+}
+/* line 91, ../sass/foton.scss */
+#content-1 .row .panel-heading {
+  background-color: #f39c12;
+  color: #FFF;
+}
+/* line 94, ../sass/foton.scss */
+#content-1 .row .panel-heading h4 {
+  font-size: 1.35em;
+}
+/* line 99, ../sass/foton.scss */
+#content-1 .row .panel-body a {
+  background-color: #f39c12;
+}
+
+/*Features section*/
+/* line 106, ../sass/foton.scss */
+#content-2 {
+  padding: 40px 0;
+}
+/* line 109, ../sass/foton.scss */
+#content-2 .row h1 {
+  margin: 40px 0 30px;
+}
+/* line 112, ../sass/foton.scss */
+#content-2 .row .panel-default {
+  margin: 40px 0;
+}
+/* line 115, ../sass/foton.scss */
+#content-2 .row .panel-heading {
+  color: #FFF;
+  border-radius: 0;
+}
+/* line 118, ../sass/foton.scss */
+#content-2 .row .panel-heading h4 {
+  font-size: 1.7em;
+  padding: 5px 25px;
+}
+/* line 20, ../sass/foton.scss */
+#content-2 .row .panel-heading.bg-blue {
+  background-color: #03a9f4;
+}
+/* line 23, ../sass/foton.scss */
+#content-2 .row .panel-heading.bg-green {
+  background-color: #4caf50;
+}
+/* line 26, ../sass/foton.scss */
+#content-2 .row .panel-heading.bg-grey {
+  background-color: #7f8c8d;
+}
+/* line 124, ../sass/foton.scss */
+#content-2 .row .panel-body {
+  padding: 0;
+  font-size: 1.2em;
+  border-radius: 0;
+}
+/* line 20, ../sass/foton.scss */
+#content-2 .row .panel-body a.bg-blue {
+  background-color: #03a9f4;
+}
+/* line 23, ../sass/foton.scss */
+#content-2 .row .panel-body a.bg-green {
+  background-color: #4caf50;
+}
+/* line 26, ../sass/foton.scss */
+#content-2 .row .panel-body a.bg-grey {
+  background-color: #7f8c8d;
+}
+/* line 131, ../sass/foton.scss */
+#content-2 .row .panel-body p {
+  padding-top: 20px;
+  padding-right: 20px;
+}
+/* line 135, ../sass/foton.scss */
+#content-2 .row .panel-body .panel-image {
+  margin: auto;
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+  object-fit: cover;
+  height: 300px;
+}
+
+/*Footer*/
+/* line 146, ../sass/foton.scss */
+#footer {
+  margin-top: 40px;
+  background: #202020;
+  color: #FFF;
+}
+/* line 150, ../sass/foton.scss */
+#footer .row {
+  padding: 50px 0;
+}
+/* line 152, ../sass/foton.scss */
+#footer .row img {
+  padding: 13px 0;
+}
+/* line 155, ../sass/foton.scss */
+#footer .row h4 {
+  font-size: 1.8em;
+}
+/* line 158, ../sass/foton.scss */
+#footer .row li {
+  list-style-type: none;
+  font-size: 1.0em;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/* line 163, ../sass/foton.scss */
+#footer .row .form-control, #footer .row .form-group .form-control {
+  color: #CCC;
+  background-image: linear-gradient(#f39c12, #f39c12), linear-gradient(#D2D2D2, #D2D2D2);
+}
+/* line 167, ../sass/foton.scss */
+#footer .row .btn {
+  margin: 5px 0;
+  padding: 7px 15px;
+  background: #f39c12;
+}
+
+/* line 175, ../sass/foton.scss */
+#info {
+  background: #1b1b1b;
+  color: #FFF;
+  padding: 15px 0;
+}
+/* line 179, ../sass/foton.scss */
+#info p {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+}
